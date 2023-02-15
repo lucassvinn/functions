@@ -14,6 +14,9 @@ int main() {
     float x, y, z, w, m, v;
     char l;
     
+    printf("Autor do Codigo: LucasVinn :)\n");
+    printf("Algoritmo para informar a média de notas de um aluno, média ponderada ou aritmética!\n\n");
+    
     printf("Informe uma letra: ");
     scanf("%c", &l);
     printf("Informe um valor: ");

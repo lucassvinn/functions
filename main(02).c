@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int calculo(int z, int x, int y) {
+int calculo(int x, int y, int z) {
     z = x + y;
 }
 
@@ -13,7 +13,7 @@ int main()
     printf("Informe 2: ");
     scanf("%d", &valor2);
     
-    valor3 = calculo(valor3, valor1, valor2);
+    valor3 = calculo(valor1, valor2, valor3);
     
     printf("Resultado: %d", valor3);
 

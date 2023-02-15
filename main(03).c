@@ -4,7 +4,7 @@ float calcmedia(char letra, float valor_1, float valor_2, float valor_3,  float 
     if (letra == 'A') {
         calculo = (valor_1 + valor_2 + valor_3) / 3;
         printf("O valor é de: %.2f", calculo);
-    }else if (letra == 'B'){
+    } else if (letra == 'B') {
         calculo = ((valor_1 * 5) + (valor_2 * 3) + (valor_3 * 2)) / 3;
         printf("O valor é de: %.2f", calculo);
     }
